@@ -1,0 +1,17 @@
+{
+  "name": "fuck.you",
+  "version": "1.0.0",
+  "description": "A JS Object that allows you to write programs by just accessing an object. Some of the properties are curses, so be aware :)",
+  "main": "fuck.you.js",
+  "scripts": {
+    "test": "mocha test/**/.test.js --recursive"
+  },
+  "keywords": [
+    "fuck",
+    "you",
+    "metaprogramming",
+    "object"
+  ],
+  "author": "Kristian Voshchepynets (@ckreator)",
+  "license": "WTFPL"
+}
