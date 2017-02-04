@@ -4,7 +4,8 @@
   "description": "A JS Object that allows you to write programs by just accessing an object. Some of the properties are curses, so be aware :)",
   "main": "fuck.you.js",
   "scripts": {
-    "test": "mocha test/**/.test.js --recursive"
+    "test": "mocha test/**/*.test.js --recursive",
+	"watch": "mocha test/**/*.test.js --recursive --watch"
   },
   "keywords": [
     "fuck",
