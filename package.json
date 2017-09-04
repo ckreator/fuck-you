@@ -4,8 +4,8 @@
   "description": "A JS Object that allows you to write programs by just accessing an object. Some of the properties are curses, so be aware :)",
   "main": "fuck.you.js",
   "scripts": {
-    "test": "mocha test/**/*.test.js --recursive",
-	"watch": "mocha test/**/*.test.js --recursive --watch"
+    "test": "./node_modules/.bin/mocha test/**/*.test.js --recursive",
+    "watch": "./node_modules/.bin/mocha test/**/*.test.js --recursive --watch"
   },
   "keywords": [
     "fuck",
@@ -14,5 +14,18 @@
     "object"
   ],
   "author": "Kristian Voshchepynets (@ckreator)",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "nyc": "^11.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "pegjs": "^0.10.0"
+  }
 }

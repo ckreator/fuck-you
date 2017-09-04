@@ -14,5 +14,16 @@ Wat? Yeah, I know it sounds weird, but look at this code:
                            // the context object that was created. There's only 'global' scope
                            // for now, so there's still a lot of work to do :)
                            // Here we get this object -> { x: 5, y: 10, z: 15 }
-                          
-                          
+
+
+
+    fuck()
+     .assign.x.num(5).stfu
+     .func.a.b.c.do
+       // this expression -> return a + b - (b - c)
+       // same as -> .return.sub(sum(a, b), sub(b-c))
+       // with fuck().you ->
+       .return.sub.sum.a.b.sub.b.c.stfu;
+       .return.sum.a.b
+     .stfu
+    .you;
