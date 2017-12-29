@@ -42,9 +42,7 @@ module.exports = (initialContext, tokens) => {
     return partial();
   }
 
-  // console.log('scope:', scope);
-
-  const textify = tokens => tokens.reduce((obj, current) => {
+  const textify = myTokens => myTokens.reduce((obj, current) => {
     const out = obj;
 
     if (typeof current === 'object') {
@@ -58,7 +56,6 @@ module.exports = (initialContext, tokens) => {
   }, { list: [], func: '' }).list;
 
   const code = textify(tokens);
-  // console.log('buildAST:', tokens, code);
 
   while (code.length > 0) {
     processExpression(code);
